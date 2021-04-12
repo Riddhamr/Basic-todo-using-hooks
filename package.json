@@ -2,11 +2,7 @@
     "name": "basic-todo-using-hooks",
     "version": "0.1.0",
     "homepage": "https://Ridham2001.github.io/Basic-todo-using-hooks",
-    "private": true,
     "dependencies": {
-        "@testing-library/jest-dom": "^5.11.10",
-        "@testing-library/react": "^11.2.6",
-        "@testing-library/user-event": "^12.8.3",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-scripts": "4.0.3",
@@ -19,12 +15,6 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "deploy": "npm run build && gh-pages -d build"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
     },
     "browserslist": {
         "production": [

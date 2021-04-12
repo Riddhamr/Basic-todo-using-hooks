@@ -46,7 +46,7 @@ export function App() {
             <button onClick={handleAddTodo}>Add to To-Do</button>
             <br />
             <br />
-            <button onClick={handleClearComplete}>Clear Completed</button>
+            <button onClick={handleClearComplete}>Clear Completed tasks</button>
             <h2>{todos.filter((todo) => !todo.completed).length} left to do</h2>
         </>
     );
